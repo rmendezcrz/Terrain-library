@@ -1,0 +1,80 @@
+Terrain ID: T1
+Filename: T1.txt
+Status: VALID
+Towers: 8
+Isolated: 0
+Mutual LoS pairs: 23
+Connectivity score: 23
+
+All Towers:
+(1,2):20.000 meters - Visible Towers: 5 - [(2,7),(3,4),(4,9),(6,1),(8,3)]
+(2,7):20.000 meters - Visible Towers: 6 - [(1,2),(3,4),(4,9),(7,6),(8,3),(9,8)]
+(3,4):20.000 meters - Visible Towers: 6 - [(1,2),(2,7),(4,9),(6,1),(7,6),(8,3)]
+(4,9):20.000 meters - Visible Towers: 6 - [(1,2),(2,7),(3,4),(6,1),(7,6),(9,8)]
+(6,1):20.000 meters - Visible Towers: 6 - [(1,2),(3,4),(4,9),(7,6),(8,3),(9,8)]
+(7,6):20.000 meters - Visible Towers: 6 - [(2,7),(3,4),(4,9),(6,1),(8,3),(9,8)]
+(8,3):20.000 meters - Visible Towers: 6 - [(1,2),(2,7),(3,4),(6,1),(7,6),(9,8)]
+(9,8):20.000 meters - Visible Towers: 5 - [(2,7),(4,9),(6,1),(7,6),(8,3)]
+Isolated towers: []
+
+Terrain ID: T2
+Filename: T2.txt
+Status: VALID
+Towers: 9
+Isolated: 1
+Mutual LoS pairs: 10
+Connectivity score: 9
+
+All Towers:
+(1,1):25.000 meters - Visible Towers: 2 - [(1,5),(5,1)]
+(1,5):25.000 meters - Visible Towers: 3 - [(1,1),(1,8),(5,1)]
+(1,8):25.000 meters - Visible Towers: 2 - [(1,5),(5,8)]
+(5,1):25.000 meters - Visible Towers: 4 - [(1,1),(1,5),(8,1),(8,5)]
+(5,5):18.000 meters - Visible Towers: 0 - []
+(5,8):25.000 meters - Visible Towers: 2 - [(1,8),(8,8)]
+(8,1):25.000 meters - Visible Towers: 2 - [(5,1),(8,5)]
+(8,5):25.000 meters - Visible Towers: 3 - [(5,1),(8,1),(8,8)]
+(8,8):25.000 meters - Visible Towers: 2 - [(5,8),(8,5)]
+Isolated towers: [(5,5)]
+
+Terrain ID: T3
+Filename: T3.txt
+Status: VALID
+Towers: 10
+Isolated: 2
+Mutual LoS pairs: 13
+Connectivity score: 11
+
+All Towers:
+(1,4):25.000 meters - Visible Towers: 4 - [(1,7),(2,8),(3,6),(8,5)]
+(1,7):25.000 meters - Visible Towers: 3 - [(1,4),(2,8),(3,6)]
+(2,2):20.000 meters - Visible Towers: 0 - []
+(2,8):25.000 meters - Visible Towers: 3 - [(1,4),(1,7),(3,6)]
+(3,6):25.000 meters - Visible Towers: 4 - [(1,4),(1,7),(2,8),(7,3)]
+(6,1):25.000 meters - Visible Towers: 2 - [(7,3),(8,2)]
+(7,3):25.000 meters - Visible Towers: 4 - [(3,6),(6,1),(8,2),(8,5)]
+(7,7):20.000 meters - Visible Towers: 0 - []
+(8,2):25.000 meters - Visible Towers: 3 - [(6,1),(7,3),(8,5)]
+(8,5):25.000 meters - Visible Towers: 3 - [(1,4),(7,3),(8,2)]
+Isolated towers: [(2,2),(7,7)]
+
+Terrain ID: T4
+Filename: T4.txt
+Status: INVALID
+Error: Invalid terrain data in file: T4.txt
+
+Terrain ID: T5
+Filename: T5.txt
+Status: INVALID
+Error: Invalid terrain data in file: T5.txt
+
+Terrain ID: T6
+Filename: T6.txt
+Status: INVALID
+Error: Invalid terrain data in file: T6.txt
+
+Total terrains: 6
+Valid terrains: 3
+Invalid terrains: 3
+Best terrain: T1
+Best connectivity score: 23
